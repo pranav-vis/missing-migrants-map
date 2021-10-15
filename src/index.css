@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: helvetica;
+}
+.marks .land {
+  fill: #C1BAA9;
+}
+.marks .interiors {
+  fill: none;
+  stroke: #C0C0BB;
+}
+.marks circle {
+  fill: #137B80;
+  opacity: 0.3;
+}
+
+.marks .sphere {
+  fill: #FFFFFF;
+}
+.tick text,
+.axisLabel {
+  fill: #635F5D;
+  font-size:0.5em;
+}
+.axisLabel {
+  fill: #635F5D;
+  font-size:0.75em;
+}
+
+.marks .graticules, .tick line {
+  stroke: #ececec;
+}
+
+.mark circle {
+  fill: #688BAB;
+}
+.mark path {
+  fill: none;
+  stroke: #688BAB;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 5;
+}
+
+.gfx {
+  -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  /* Similar syntax to box-shadow */
+}
